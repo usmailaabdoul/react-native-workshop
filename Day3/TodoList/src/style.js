@@ -1,3 +1,4 @@
+
 const WHITE = '#f5f6fa';
 const rootRoot = { 
 	flex: 1 
@@ -93,7 +94,9 @@ const newTodoInput = {
 	borderRightWidth: 5, 
 	borderRightColor: 'grey'
 }
-
+ const checkItemCompletion = {
+	 fontSize: 50,
+ }
 
 export default {
 	rootRoot, 
@@ -116,5 +119,7 @@ export default {
 	newTodoButtonContainerButtonText, 
 	newTodoInput, 
 
-	imageWatermark
+	imageWatermark,
+
+	checkItemCompletion
 }
